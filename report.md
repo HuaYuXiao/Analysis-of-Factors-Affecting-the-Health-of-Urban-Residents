@@ -4,28 +4,49 @@
 
 # <center>目录
 
-## 摘要
+摘要
+
 1. 问题重述
+2. 
 &nbsp;&nbsp;1.1 研究背景
+
 &nbsp;&nbsp;1.2 研究内容
-2. 问题分析
-3. 模型假设
-4. 模型的建立与求解
+
+4. 问题分析
+
+5. 模型假设
+
+6. 模型的建立与求解
+
 &nbsp;&nbsp;4.1. BMI计算与异常值处理
+
 &nbsp;&nbsp;4.2. 基本信息处理
+
 &nbsp;&nbsp;4.3. 吸烟情况预处理
+
 &nbsp;&nbsp;4.4. 饮酒情况处理
+
 &nbsp;&nbsp;4.5. 饮食习惯处理
+
 &nbsp;&nbsp;&nbsp;&nbsp;4.5.1. 全谷物、鱼禽蛋瘦肉、奶制品、大豆制品
+
 &nbsp;&nbsp;&nbsp;&nbsp;4.5.2. 含糖饮料
+
 &nbsp;&nbsp;&nbsp;&nbsp;4.5.3. 食用油、盐
+
 &nbsp;&nbsp;4.6. 体育锻炼情况处理
+
 &nbsp;&nbsp;4.7. 健康指标处理
+
 &nbsp;&nbsp;&nbsp;&nbsp;4.7.1. 血压水平
+
 &nbsp;&nbsp;&nbsp;&nbsp;4.7.2. 糖代谢状态
+
 &nbsp;&nbsp;&nbsp;&nbsp;4.7.3. 血脂水平
+
 &nbsp;&nbsp;&nbsp;&nbsp;4.7.4. 尿酸水平
-5. 研究结果
+
+7. 研究结果
 
 
 
