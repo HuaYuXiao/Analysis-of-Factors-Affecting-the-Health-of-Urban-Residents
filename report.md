@@ -1,5 +1,3 @@
-<font face='SimSun'>
-
 # <center>影响城市居民身体健康的因素分析
 
 ## 摘要
@@ -35,10 +33,6 @@
 1. 根据第七次全国人口普查结果，平均每个家庭户的人口为2.62人[1]。
 
 2. 各种酒比例系数占比依据平均度数确定。
-
-3. 根据世界卫生组织发布的《全球食品安全标准》和《全球膳食指南》，专家推荐的每人每天摄入油炸食品的量不超过25克。
-
-4. 由于附件A2“油炸食品”一项数据没有明显相关结果可以得出，所以不做分析。
 
 ## 4. 模型的建立与求解
 
@@ -204,18 +198,17 @@ $$
 
 经常吃大豆制品[7]。
 
+![大豆制品](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/d4c8ddb2-6b1c-408b-9f0b-c2c9c961da8d)
 
 豆类具有极高的营养价值，是植物性蛋白中唯一的优质来源，富含赖氨酸。以黄豆为基数，分别计算其他豆制品的营养指数，则得到如下图所示的分布图和饼状图，即53%的人群大豆摄入不达标，26%的人群大豆摄入超标，21%的人群大豆摄入处于正常水平，适量大豆的摄入增加有助于降低心血管发生风险，并且对女性人群而言可降低乳腺癌的发生[6]，但是摄入过多会对甲状腺带来极大负担，因此我们建议大豆摄入量不应低于正常水平，在正常水平基础上同时不应超过其5克，这是比较健康的饮食标准。
 
 #### 5.1.6. 鱼禽蛋瘦肉
 
-鱼禽、蛋类和瘦肉摄入要适量，平均每天120~200g。
+鱼禽、蛋类和瘦肉摄入要适量，平均每天120~200g[2]。
 
 ![鱼禽蛋瘦肉.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67fa82ea-6f19-45f1-b348-599ba1b3ef91/%E9%B1%BC%E7%A6%BD%E8%9B%8B%E7%98%A6%E8%82%89.png)
 
-数据判断标准：【1】
-
-鱼禽、蛋类和瘦肉均属于动物性食物，富含优质蛋白质、脂类、脂溶性纤维素、B族维生素和矿物质等，是平衡膳食的重要组成部分。从饼状图中可以看出该地70%居民存在鱼禽肉蛋摄入量不足的现象，11%摄入量超标，只有19%处于安全健康摄入量，饮食结构存在极大的失衡，考虑到调查人群的年轻主体为中老年人以及2018至2021年市场上相关产品的价格指数涨幅（见下图）【3】，推测可能是由于过去的生活水平习惯以及当前的市场环境导致的。增加鱼禽肉蛋的摄入量有助于降低全因死亡的风险，降低脑卒中转移的风险，特别的可以降低中老年人痴呆及认知功能障碍发病的风险【7】，因此根据膳食宝塔，我们建议
+鱼禽、蛋类和瘦肉均属于动物性食物，富含优质蛋白质、脂类、脂溶性纤维素、B族维生素和矿物质等，是平衡膳食的重要组成部分。从饼状图中可以看出该地70%居民存在鱼禽肉蛋摄入量不足的现象，11%摄入量超标，只有19%处于安全健康摄入量，饮食结构存在极大的失衡，考虑到调查人群的年轻主体为中老年人以及2018至2021年市场上相关产品的价格指数涨幅（见下图）【3】，推测可能是由于过去的生活水平习惯以及当前的市场环境导致的。增加鱼禽肉蛋的摄入量有助于降低全因死亡的风险，降低脑卒中转移的风险，特别的可以降低中老年人痴呆及认知功能障碍发病的风险[6]，因此根据膳食宝塔，我们建议
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3abfe8f-dc26-4a37-923f-50c543cacaf4/Untitled.png)
 
@@ -227,15 +220,13 @@ $$
 
 #### 5.1.7. 油炸面食
 
-培养清淡饮食习惯，少吃高盐、高糖和油炸食品。成人每天摄入烹调油 25~30g。
+培养清淡饮食习惯，少吃高盐、高糖和油炸食品[2]。成人每天摄入烹调油 25~30g。根据世界卫生组织发布的《全球食品安全标准》和《全球膳食指南》，专家推荐的每人每天摄入油炸食品的量不超过25克。
 
 ![油炸面食.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/368ce454-4f12-4539-b7e9-f1a2671017ef/%E6%B2%B9%E7%82%B8%E9%9D%A2%E9%A3%9F.png)
 
 ![食用油.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcea92a5-1b02-4655-92ee-89be781b34a6/%E9%A3%9F%E7%94%A8%E6%B2%B9.png)
 
-数据标准来源：【1】
-
-> 食用油：食用油在食物的烹饪过程中有着功不可没的作用，既可以做到使菜肴增香又富含丰富的营养价值，然而食用油的摄入量得符合一定的标准。从饼状图中可以看出，调查人群中79%属于摄入超标，15%是摄入不足，只有7%的人是处于正常水平的摄入量。高脂肪酸的摄入将导致肥胖的发生，分别计算摄入量大于80以及处于正常水平两类人群的平均BMI值，分别为23.65以及23.64，在进行齐方差性检验后得到p值为0.98，据此可进行t检验，得到p值为0.98，据此判断两边的BMI水平并无明显区别，且均处于正常水平。但这并不意味着摄入过多食用油没有风险，根据调查研究显示植物油中富含的反式脂肪摄入过多将会导致心血管方面的疾病【7】，因此对该地区人群，我们的建议是尽量吃清淡一点。
+食用油在食物的烹饪过程中有着功不可没的作用，既可以做到使菜肴增香又富含丰富的营养价值，然而食用油的摄入量得符合一定的标准。从饼状图中可以看出，调查人群中79%属于摄入超标，15%是摄入不足，只有7%的人是处于正常水平的摄入量。高脂肪酸的摄入将导致肥胖的发生，分别计算摄入量大于80以及处于正常水平两类人群的平均BMI值，分别为23.65以及23.64，在进行齐方差性检验后得到p值为0.98，据此可进行t检验，得到p值为0.98，据此判断两边的BMI水平并无明显区别，且均处于正常水平。但这并不意味着摄入过多食用油没有风险，根据调查研究显示植物油中富含的反式脂肪摄入过多将会导致心血管方面的疾病[6]，因此对该地区人群，我们的建议是尽量吃清淡一点。
 
 #### 5.1.8. 含糖饮料
 
@@ -257,7 +248,7 @@ $$
 
 #### 5.1.10. 酒精
 
-与第四版相比，成人每日酒精摄入量控制更严格。无论男性女性摄入酒精<15g，特殊人群不应饮酒[2]。
+与第四版相比，成人每日酒精摄入量控制更严格。无论男性女性摄入酒精少于15g，特殊人群不应饮酒[2]。
 
 ![酒精](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/3876ef5a-dd4f-4a75-b888-7cdb9576aa2f)
 
@@ -273,19 +264,19 @@ $$
 
 ![不吃晚餐](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/4764d942-e48e-4e18-9b14-898eebac4f66)
 
-从图中可以看出大约18%的人每周至少有一天不吃早餐，计算不吃早餐人群的血糖浓度，
+从图中可以看出大约18%的人每周至少有一天不吃早餐，计算不吃早餐人群的血糖浓度如下表：
 
 | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 5.12 | 4.94 | 4.93 | 5    | 5.10 | 5.12 | 5.31 | 5.04 |
+| 5.12 | 4.94 | 4.93 | 5.00 | 5.10 | 5.12 | 5.31 | 5.04 |
 
-从表格图中平均血糖的变化，我们发现了一个有趣的结果即不吃早餐血糖反而升高了，查阅资料后发现可能是由于糖尿病因素引起的，分别计算各部分糖尿病患者占比。
+从表格图中平均血糖的变化，我们发现了一个有趣的结果即不吃早餐血糖反而升高了，查阅资料后发现可能是由于糖尿病因素引起的，分别计算各部分糖尿病患者占比如下表：
 
 | 0    | 1     | 2     | 3     | 4     | 5     | 6     | 7     |
 | ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | 3.2% | 1.86% | 1.50% | 1.13% | 2.40% | 1.17% | 2.86% | 1.54% |
 
-据此可以得出结论绝大数不吃早餐的人血糖升高或者与糖尿病无关，或者接受了饮食控制方面的措施，计算糖尿病患者中各部分接受饮食控制的占比有
+据此可以得出结论绝大数不吃早餐的人血糖升高或者与糖尿病无关，或者接受了饮食控制方面的措施，计算糖尿病患者中各部分接受饮食控制的占比如下表：
 
 | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -311,7 +302,7 @@ $$
 | 110-120 | 0    | 0      |
 | 120-130 | 2    | 0      |
 
-1，当样本数总体超过且所有单元格T大于等于5时，用普通的卡方检验，若所得的p值约等于0.05，改用fisher检验
+1，当样本数总体超过且所有单元格T大于等于5时，用普通的卡方检验，若所得的p值约等于0.05，改用fisher检验。
 
 2，当样本数大于大于40但是存在单元格大于等于1小于5时，进行连续性校正
 
@@ -321,8 +312,6 @@ $$
 | ---------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
 | 不吃早餐                     | <0.001（显著相关） | <0.001（显著相关） | 0.4338（无关）     | <0.001（显著相关） | <0.001（显著相关） |
 | 含糖饮料                     | <0.001(显著相关）  | <0.001(显著相关）  | <0.001(显著相关）  | <0.001(显著相关）  | <0.001(显著相关）  |
-|                              |                    |                    |                    |                    |                    |
-| 油炸面食（废弃）             |                    |                    |                    |                    |                    |
 | 吸烟指数                     | <0.001(显著相关）  | <0.001（显著相关） | <0.001（显著相关） | <0.001（显著相关） | <0.001（显著相关） |
 | 新鲜蔬菜                     | <0.001(显著相关）  | 0.394（无关）      | 0.001（相关）      | 0.056（无关）      | <0.001（显著相关） |
 | 新鲜水果                     | <0.001(显著相关）  | <0.001(显著相关）  | 0.018（几乎无关）  | <0.001（显著相关） | 0.002（相关）      |
@@ -342,33 +331,23 @@ $$
 
 1，年龄段与各分量，分析待定
 
-[年龄段.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6417d57-0fb2-4995-bdaa-64acbc44e1aa/年龄段.xlsx)
-
 新鲜蔬菜：90-100；新鲜水果：80-90；体育锻炼：60-70；吸烟指数：20—30，30-40，40-50，90-100；酒精：无法判断，由于部分分组数目过少，组内酒精含量相同无标准差；含糖饮料：120-130；不吃早餐：60-70
 
 2，性别与各分量
-
-[性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c24daffe-190e-4cc1-9a4c-58eb04ff78d1/性别.xlsx)
 
 除体育锻炼男女之间无明显统计学差异，其他都有明显差异
 
 3，文化程度与各分量
 
-[文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5a72474-00b5-4243-bed9-4b5d3bd0e192/工作簿1.xlsx)
-
 新鲜蔬菜：各组无明显差异；新鲜水果：小学；体育锻炼：高中/中专，大专/大本；吸烟指数：大本/大专；酒精：各组无明显差异；含糖饮料：文盲；不吃早餐：初中
 
 4，婚姻与各分量
-
-[婚姻.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2ec269f3-b22a-45a0-83e0-d7003baa80a7/婚姻.xlsx)
 
 新鲜蔬菜：未婚；新鲜水果：丧偶；体育锻炼：未婚；吸烟指数：丧偶；酒精：未婚，已婚；含糖饮料：丧偶，未婚；不吃早餐：丧偶，未婚，已婚
 
 5，职业与各分量
 
 新鲜蔬菜指标上学生与其他职业具有最多的统计学差异，新鲜水果指标上是工人与农民，体育锻炼上是学生和离退休人员，吸烟指数：医务人员，学生，家庭妇女，酒精：家庭妇女，军人，学生；含糖饮料：学生，农民；不吃早餐：离退休人员。
-
-[职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/42a90389-cba2-4fdf-a9dc-d31bbd7be34d/职业.xlsx)
 
 #### 不吃早餐
 
@@ -426,105 +405,53 @@ $$
 
 [含糖饮料-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4473dbb5-cd4b-4b2e-b465-ba6dcd61e031/含糖饮料-职业.xlsx)
 
-#### 油炸面食
-
-![油炸面食-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6eafb81a-3cb9-4bf7-8794-57be38daa1ea/%E6%B2%B9%E7%82%B8%E9%9D%A2%E9%A3%9F-%E5%B9%B4%E9%BE%84.png)
-
-![油炸面食-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70da284b-ef80-4849-be66-5259bd62c21e/%E6%B2%B9%E7%82%B8%E9%9D%A2%E9%A3%9F-%E6%80%A7%E5%88%AB.png)
-
-![油炸面食-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c695d29e-0227-43fd-95e6-5a760f698798/%E6%B2%B9%E7%82%B8%E9%9D%A2%E9%A3%9F-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-![油炸面食-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8d07f3ca-c1f4-4ff7-be56-b24515141712/%E6%B2%B9%E7%82%B8%E9%9D%A2%E9%A3%9F-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-![油炸面食-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6556ce18-f6f9-49bd-9f97-fdca24ed9701/%E6%B2%B9%E7%82%B8%E9%9D%A2%E9%A3%9F-%E8%81%8C%E4%B8%9A.png)
-
 #### 吸烟指数
 
 ![吸烟-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7c16ba4-9948-4855-bfd9-b0c81cee2a7d/%E5%90%B8%E7%83%9F-%E5%B9%B4%E9%BE%84.png)
 
-[吸烟指数-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b448243-bcb1-409e-b410-ee857b3ece0b/吸烟指数-年龄.xlsx)
-
 ![吸烟-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af68816a-1ea1-4675-85f9-d577918db1c2/%E5%90%B8%E7%83%9F-%E6%80%A7%E5%88%AB.png)
-
-[吸烟指数-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/96f3125a-8fdd-41d6-bc16-dc5f1632c36d/吸烟指数-性别.xlsx)
 
 ![吸烟-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52485788-d98a-49b9-a0d0-1370d500af45/%E5%90%B8%E7%83%9F-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
 
-[吸烟指数-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1469caa-a7f2-46e0-8ae1-3cdb3b3121cd/吸烟指数-婚姻状况.xlsx)
-
 ![吸烟-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1aab95e5-d783-4fc9-a62a-bc48c75ab781/%E5%90%B8%E7%83%9F-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
 
-[吸烟指数-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc951aa4-da29-4d6a-81dd-aeb940f9e083/吸烟指数-文化程度.xlsx)
-
 ![吸烟-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4ba3701-0201-4fc1-9c06-f71b15d6f9b3/%E5%90%B8%E7%83%9F-%E8%81%8C%E4%B8%9A.png)
-
-[吸烟指数-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b963e512-796c-48b3-a7a5-5e75063d2200/吸烟指数-职业.xlsx)
 
 #### 新鲜蔬菜
 
 ![新鲜蔬菜-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f01cff2a-6c56-4d72-a3d9-ea79f35a4210/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%B9%B4%E9%BE%84.png)
 
-[新鲜蔬菜-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a40e4a8f-2101-4dc1-80d8-c730b67a332d/新鲜蔬菜-年龄.xlsx)
-
 ![新鲜蔬菜-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55e52929-e91c-4d27-8400-cfeec41b08a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%80%A7%E5%88%AB.png)
-
-[新鲜蔬菜-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/34971b32-e5e3-483c-a9ad-4476cf21a4dc/新鲜蔬菜-性别.xlsx)
 
 ![新鲜蔬菜-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa7dbc3-4378-4578-99e2-b4493ac1c68e/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
 
-[新鲜蔬菜-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f8d0853b-36a5-4a37-aae4-048defa9caaf/新鲜蔬菜-婚姻状况.xlsx)
-
 ![新鲜蔬菜-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4044e85-23c6-4133-91b9-4a79ed3f12a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
 
-[新鲜蔬菜-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c8bf01d3-7464-4a8c-9144-18b4bd6e74f3/新鲜蔬菜-文化程度.xlsx)
-
 ![新鲜蔬菜-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40f9cb44-7a21-4348-9466-278c9e82601f/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E8%81%8C%E4%B8%9A.png)
-
-[新鲜蔬菜-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cfb6a7e8-e297-4ef6-a65f-7feac4a0b8da/新鲜蔬菜-职业.xlsx)
 
 #### 新鲜水果
 
 ![新鲜水果-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f74238e-16a4-4cd3-99ff-8fbb24321266/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%B9%B4%E9%BE%84.png)
 
-[新鲜水果-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/252097c3-b970-4b7a-b3c7-43c9d06a13b9/新鲜水果-年龄.xlsx)
-
 ![新鲜水果-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e932bbe-cae2-452e-a7ed-a0c4b0dee210/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%80%A7%E5%88%AB.png)
-
-[新鲜水果-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/42f4825d-d621-4e4f-9a1d-969a8ec2ac50/新鲜水果-性别.xlsx)
 
 ![新鲜水果-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13c413ee-2431-424d-82d2-33ca09d0f88e/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
 
-[新鲜水果-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1677757f-6203-464e-a49f-1611d6d6bfce/新鲜水果-婚姻状况.xlsx)
-
 ![新鲜水果-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1fdba397-9fda-486a-a9e5-f3fe3f0cf7a0/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
 
-[新鲜水果-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84129468-1a3a-4eaf-9cba-1e6980f99468/新鲜水果-文化程度.xlsx)
-
 ![新鲜水果-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79ded0e1-4949-42ca-9110-e639a21ccfc1/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E8%81%8C%E4%B8%9A.png)
-
-[新鲜水果-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83439f38-b790-4581-9283-0211eb69f384/新鲜水果-职业.xlsx)
 
 #### 体育锻炼
 
 ![体育锻炼-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70665068-a7d1-48d1-9b73-1fc71b9445a6/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%B9%B4%E9%BE%84.png)
 
-[体育锻炼-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/25fe52c6-3c28-49fe-b642-2de808579a9f/体育锻炼-年龄.xlsx)
-
 ![体育锻炼-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ec1f471-777a-4399-9b88-9ac05fe9c48d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%80%A7%E5%88%AB.png)
-
-[体育锻炼-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/81d05db2-d3da-4969-85c2-2b5d5579057a/体育锻炼-性别.xlsx)
 
 ![体育锻炼-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1b125a6-b434-4f1b-ac91-08cb99e8b08d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
 
-[体育锻炼-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/672227a9-e05f-4216-a2b8-d52ee6023005/体育锻炼-婚姻状况.xlsx)
-
 ![体育锻炼-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff1653b4-16ec-4c5d-afba-64f06151d1ec/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
 
-[体育锻炼-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0505f7e8-af98-44a6-888e-a1e164d07cc9/体育锻炼-文化程度.xlsx)
-
 ![体育锻炼-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b07347b3-1122-4f6c-ab43-b10646d83eb3/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E8%81%8C%E4%B8%9A.png)
-
-[体育锻炼-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0c6c0d5a-542b-48b7-b0e2-6eee810ddf84/体育锻炼-职业.xlsx)
 
 ### 5.3. 常见慢性病与吸烟、饮酒、饮食习惯、生活习惯、工作性质、运动因素的关系以及相关程度
 
@@ -602,13 +529,6 @@ $$
 | p值  | .601     | .573     | .337 | .085     | .008     | .740     | .058         |
 
 为减少误判概率，选择实接受吸烟指数指标具有统计学意义，其中单纯收缩期高血压，1级高血压（轻度），2级高血压（中度）吸烟指数指标改变引起风险的变化倍数与参考组没有差异；单纯收缩期高血压体育锻炼OR值为.995，体育锻炼每增加一个单位，异常发生风险为参考组的.995倍，1级高血压（轻度），2级高血压（中度）体育锻炼OR值为.999，体育锻炼每增加一个单位，异常发生风险为参考组的.999倍，
-
-
-
-
-
-
-
 
 ### 6. 敏感度分析
 
