@@ -230,7 +230,7 @@ $$
 
 指南指出，鱼禽、蛋类和瘦肉摄入要适量，平均每天120~200g[2]。
 
-![鱼禽蛋瘦肉.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/67fa82ea-6f19-45f1-b348-599ba1b3ef91/%E9%B1%BC%E7%A6%BD%E8%9B%8B%E7%98%A6%E8%82%89.png)
+![鱼禽蛋瘦肉](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/a241339c-04d1-462c-ace6-82dccf483337)
 
 从饼状图中可以看出该地70%居民存在鱼禽肉蛋摄入量不足的现象，11%摄入量超标，只有19%处于安全健康摄入量，饮食结构存在极大的失衡。
 
@@ -242,9 +242,9 @@ $$
 
 指南指出，培养清淡饮食习惯，少吃高盐、高糖和油炸食品[2]。成人每天摄入烹调油 25~30g。根据世界卫生组织发布的《全球食品安全标准》和《全球膳食指南》，专家推荐的每人每天摄入油炸食品的量不超过25克。
 
-![油炸面食.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/368ce454-4f12-4539-b7e9-f1a2671017ef/%E6%B2%B9%E7%82%B8%E9%9D%A2%E9%A3%9F.png)
+![油炸面食](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/a8963d2e-64d2-4df4-bba7-53f9dfb5c78d)
 
-![食用油.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dcea92a5-1b02-4655-92ee-89be781b34a6/%E9%A3%9F%E7%94%A8%E6%B2%B9.png)
+![食用油](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/996dae37-9c63-449d-88a5-31be3bf1a840)
 
 从饼状图中可以看出，调查人群中79%属于摄入超标，15%是摄入不足，只有7%的人是处于正常水平的摄入量。
 
@@ -254,7 +254,7 @@ $$
 
 指南指出，不喝或少喝含糖饮料，成人每天控制添加糖在25g以下。也督促大家不要口渴时才喝水，要少量多次、足量饮水。推荐喝白水或茶水，少喝或不喝含糖饮料，不用饮料代替白水[2]。
 
-![含糖饮料](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/9bca36fc-3d27-4fb0-8b72-56f63577fbf2)
+![含糖饮料](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/81f704e8-a027-483a-80ce-f2451c4dca9c)
 
 这里谈论的糖类主要为游离糖，即额外摄入糖。有下图所示该地居民额外糖类摄入量，可以看出75%处于正常摄入水平，只有25%是超标的，同时分布上具有较为严重的厚尾现象。
 
@@ -293,19 +293,19 @@ $$
 从图中可以看出大约18%的人每周至少有一天不吃早餐，计算不吃早餐人群的血糖浓度如下表：
 
 | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 5.12 | 4.94 | 4.93 | 5.00 | 5.10 | 5.12 | 5.31 | 5.04 |
 
 从表格图中平均血糖的变化，我们发现了一个有趣的结果即不吃早餐血糖反而升高.查阅资料后发现可能是由于糖尿病因素引起的，分别计算各部分糖尿病患者占比如下表：
 
 | 0    | 1     | 2     | 3     | 4     | 5     | 6     | 7     |
-| ---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 3.2% | 1.86% | 1.50% | 1.13% | 2.40% | 1.17% | 2.86% | 1.54% |
 
 据此可以得出结论绝大数不吃早餐的人血糖升高或者与糖尿病无关，或者接受了饮食控制方面的措施，计算糖尿病患者中各部分接受饮食控制的占比如下表：
 
 | 0    | 1    | 2    | 3    | 4    | 5    | 6    | 7    |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | 74%  | 0    | 80%  | 50%  | 67%  | 67%  | 0%   | 33%  |
 
 简单计算Pearson相关系数后为-0.13，具有弱相关性，因此饮食控制这个原因猜测小概率是正确的。
@@ -335,87 +335,67 @@ $$
 
 不吃早餐除与婚姻状况无统计学明显相关，与其他均有统计学上的明显相关。
 
-![不吃早餐-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7579222d-52a4-44f1-b4c6-40e0be5a417d/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E5%B9%B4%E9%BE%84.png)
+![不吃早餐-年龄](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/9a8c016f-0c3f-4f12-b8ec-35deff246188)
 
-[不吃早餐-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef3887a8-9090-4031-8bfc-80030171e771/不吃早餐-年龄.xlsx)
+![不吃早餐-性别](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/0d255436-a0bb-4b9b-85d0-6f61c9bd6c21)
 
-![不吃早餐-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6cf81206-f2f3-488e-a2b4-0bf2fd998026/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E6%80%A7%E5%88%AB.png)
+![不吃早餐-婚姻状况](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/64855ccc-85e3-41e6-980b-c75a00d1e0d4)
 
-[不吃早餐-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c5407c-dbee-4c30-89b8-cb35af106abe/不吃早餐-性别.xlsx)
+![不吃早餐-文化程度](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/4b2a4811-d13c-4d00-92e8-26e2ef889631)
 
-![不吃早餐-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c4dad0e-0d9f-47d7-ae92-42d444e02893/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-[不吃早餐-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5452551c-b5b7-4a95-8dc0-ff0d08ffe28b/不吃早餐-婚姻状况.xlsx)
-
-![不吃早餐-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b102c1f-085a-4ab7-a2b4-cd882c1e9f62/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-[不吃早餐-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d5cfa09-973e-44d7-a781-71aa6599d7e3/不吃早餐-文化程度.xlsx)
-
-![不吃早餐-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcc308e0-94be-4d9c-ac84-a9bad7142713/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E8%81%8C%E4%B8%9A.png)
-
-[不吃早餐-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/023cfc7c-3245-4c05-b58b-65c330dde427/不吃早餐-职业.xlsx)
+![不吃早餐-职业](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/d7cb7338-8415-4fc3-8c60-37336ac35c2f)
 
 ##### 3.2.1.2. 酒精
 
-![酒精-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c44f3069-a393-4eb3-837c-28dad4c72131/%E9%85%92%E7%B2%BE-%E5%B9%B4%E9%BE%84.png)
+![酒精-年龄](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/283870b2-d6c6-4fbc-ae3d-bbce2a724409)
 
-![酒精-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a85660e-77ee-4470-8ba2-ff60aff14777/%E9%85%92%E7%B2%BE-%E6%80%A7%E5%88%AB.png)
+![酒精-性别](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/8e6604a6-b341-42e6-aee4-8681159de1f2)
 
-![酒精-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf0ed725-efc7-4100-ba84-8fd8d6f435f0/%E9%85%92%E7%B2%BE-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+![酒精-婚姻状况](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/28c5458b-9411-4b11-9f8c-737d00e00741)
 
-![酒精-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/791ad94d-8907-49b8-9c24-437468484e2d/%E9%85%92%E7%B2%BE-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+![酒精-文化程度](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/752fc208-cbaa-41c3-9433-4a123124e412)
 
-![酒精-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76bd8c70-5c2b-40d3-adbf-5193486ec694/%E9%85%92%E7%B2%BE-%E8%81%8C%E4%B8%9A.png)
+![酒精-职业](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/b04766f0-adaa-49c4-8bee-3ec891c23f3b)
 
 ##### 3.2.1.3. 含糖饮料
 
-![含糖饮料-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5814b577-7be3-4c1b-ad72-27544c4ccb67/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E5%B9%B4%E9%BE%84.png)
+![含糖饮料-年龄](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/99a1f0ba-040c-4321-a45c-4aa05b91bcca)
 
-[含糖饮料-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f86bd2e2-7e7f-45fd-9e23-746be4f00a52/含糖饮料-年龄.xlsx)
+![含糖饮料-性别](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/36faf07a-613d-4de0-9085-130402e7ff03)
 
-![含糖饮料-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d52a3aba-4239-40bf-be2f-dc7563fdcbe8/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E6%80%A7%E5%88%AB.png)
+![含糖饮料-婚姻状况](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/62d38e7c-6e6d-47e2-8d35-3e868e79fa12)
 
-[含糖饮料-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5550da0-e215-47d4-9b05-930e07812be0/含糖饮料-性别.xlsx)
+![含糖饮料-文化程度](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/9c238a56-c883-488b-a55a-bb529a73e9bc)
 
-![含糖饮料-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caba994b-0cab-4c7a-8e27-ce33c6abc4b1/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-[含糖饮料-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b102ac94-7b0a-4d2b-9744-155ed163bf93/含糖饮料-婚姻状况.xlsx)
-
-![含糖饮料-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c15634a1-c13f-4edb-96ad-d9ea8edd2e98/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-[含糖饮料-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ba5447ab-5005-4d0d-b4b2-98f6ecc92f8f/含糖饮料-文化程度.xlsx)
-
-![含糖饮料-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb5b2d60-e1cb-4e0a-a5d8-5cc83cd4be6e/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E8%81%8C%E4%B8%9A.png)
-
-[含糖饮料-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4473dbb5-cd4b-4b2e-b465-ba6dcd61e031/含糖饮料-职业.xlsx)
+![含糖饮料-职业](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/bdd9d5e6-5555-447b-9b16-0a06d9c25951)
 
 ##### 3.2.1.4. 新鲜蔬菜
 
 新鲜蔬菜除与文化程度和性别无明显相关，其他均具有明显相关。
 
-![新鲜蔬菜-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f01cff2a-6c56-4d72-a3d9-ea79f35a4210/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%B9%B4%E9%BE%84.png)
+![新鲜蔬菜-年龄](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/53f3c10c-5b7a-4fec-b112-98bdc4483ac9)
 
-![新鲜蔬菜-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55e52929-e91c-4d27-8400-cfeec41b08a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%80%A7%E5%88%AB.png)
+![新鲜蔬菜-性别](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/d36d2107-c660-4dec-bd2b-226ed04a829d)
 
-![新鲜蔬菜-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa7dbc3-4378-4578-99e2-b4493ac1c68e/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+![新鲜蔬菜-婚姻状况](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/67535dc7-7fc6-462b-aeff-010399e40ad6)
 
-![新鲜蔬菜-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4044e85-23c6-4133-91b9-4a79ed3f12a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+![新鲜蔬菜-文化程度](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/51aea281-62de-4ed4-8c92-1641536989a5)
 
-![新鲜蔬菜-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40f9cb44-7a21-4348-9466-278c9e82601f/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E8%81%8C%E4%B8%9A.png)
+![新鲜蔬菜-职业](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/68b163dd-9eae-4038-be71-be8401caefc7)
 
 ##### 3.2.1.5. 新鲜水果
 
 新鲜水果除与婚姻状况在统计学意义上几乎无关，与职业具有较弱的相关性，其他均具有明显相关。
 
-![新鲜水果-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f74238e-16a4-4cd3-99ff-8fbb24321266/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%B9%B4%E9%BE%84.png)
+![新鲜水果-年龄](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/1048a589-db85-4ed0-96cd-696c6ef6168c)
 
-![新鲜水果-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e932bbe-cae2-452e-a7ed-a0c4b0dee210/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%80%A7%E5%88%AB.png)
+![新鲜水果-性别](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/26e92478-f01e-40d6-b60b-7e37751fb104)
 
-![新鲜水果-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13c413ee-2431-424d-82d2-33ca09d0f88e/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+![新鲜水果-婚姻状况](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/fbe0a94e-8874-49a5-b385-5bde13388a73)
 
-![新鲜水果-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1fdba397-9fda-486a-a9e5-f3fe3f0cf7a0/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+![新鲜水果-文化程度](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/54be2940-5a94-4439-b9c3-9082a8ce1fc2)
 
-![新鲜水果-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79ded0e1-4949-42ca-9110-e639a21ccfc1/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E8%81%8C%E4%B8%9A.png)
+![新鲜水果-职业](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/5b8f5b70-139b-4c99-9f92-855a5795d4e6)
 
 #### 3.2.2. 生活习惯
 
@@ -423,29 +403,29 @@ $$
 
 吸烟指数与所有列变量都具有统计学上的明显相关性。
 
-![吸烟-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7c16ba4-9948-4855-bfd9-b0c81cee2a7d/%E5%90%B8%E7%83%9F-%E5%B9%B4%E9%BE%84.png)
+![吸烟-年龄](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/4564393e-5f9b-400b-b2af-b4ee94b9f44d)
 
-![吸烟-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af68816a-1ea1-4675-85f9-d577918db1c2/%E5%90%B8%E7%83%9F-%E6%80%A7%E5%88%AB.png)
+![吸烟-性别](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/9b99a690-a751-4d9d-aeac-24bc74d36792)
 
-![吸烟-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52485788-d98a-49b9-a0d0-1370d500af45/%E5%90%B8%E7%83%9F-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+![吸烟-婚姻状况](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/1af47ac4-b001-449d-a13e-9b3ecbd6ca6f)
 
-![吸烟-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1aab95e5-d783-4fc9-a62a-bc48c75ab781/%E5%90%B8%E7%83%9F-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+![吸烟-文化程度](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/b80635bd-2d4f-45c5-97a1-fdb60cdeacc9)
 
-![吸烟-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4ba3701-0201-4fc1-9c06-f71b15d6f9b3/%E5%90%B8%E7%83%9F-%E8%81%8C%E4%B8%9A.png)
+![吸烟-职业](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/865a3796-421c-4006-ad98-9cc81835dfd9)
 
 ##### 3.2.2.2. 体育锻炼
 
 体育锻炼除与性别具有相对较弱的统计学意义上的相关性，其他都是强相关性。
 
-![体育锻炼-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70665068-a7d1-48d1-9b73-1fc71b9445a6/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%B9%B4%E9%BE%84.png)
+![体育锻炼-年龄](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/cf1362d6-3155-4cd1-9e06-b0a41cb175a2)
 
-![体育锻炼-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ec1f471-777a-4399-9b88-9ac05fe9c48d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%80%A7%E5%88%AB.png)
+![体育锻炼-性别](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/23bc922e-b81d-42d3-8038-05096091e4f0)
 
-![体育锻炼-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1b125a6-b434-4f1b-ac91-08cb99e8b08d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+![体育锻炼-婚姻状况](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/e36ce2cb-fbd1-4c35-839b-a9800851b653)
 
-![体育锻炼-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff1653b4-16ec-4c5d-afba-64f06151d1ec/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+![体育锻炼-文化程度](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/031033fc-4c63-4a0a-b1b1-7b818acb10d6)
 
-![体育锻炼-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b07347b3-1122-4f6c-ab43-b10646d83eb3/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E8%81%8C%E4%B8%9A.png)
+![体育锻炼-职业](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/85d65b59-531a-4946-bed9-2e3b3fed8821)
 
 最终得到的结果如下
 
@@ -473,17 +453,13 @@ $$
 
 ### 3.3. 常见慢性病与吸烟、饮酒、饮食习惯、生活习惯、工作性质、运动因素的关系以及相关程度
 
-（无监督学习）反应居民生活，饮食习惯多个指标之间的相关系数热图
+反应居民生活，饮食习惯多个指标之间的相关系数热图如下：
 
-![Figure_1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a7d0127-8593-4396-8c1b-eba48a93efc3/Figure_1.png)
+![Figure_1](https://github.com/HuaYuXiao/Analysis-of-factors-affecting-the-health-of-urban-residents/assets/117464811/427a781d-0e8a-4c87-b652-10cd52be9632)
 
-#### 多元logistic混合回归（SPSS分析）
-
-流程图：
+针对慢性病与哪些因素有关以及各自的相关水平，我们考虑采用多元混合logistics混合回归（SPSS分析）
 
 [未命名文件.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5cf934c1-a150-4379-b578-f7ef0c8f191d/未命名文件.png)
-
-针对慢性病与哪些因素有关以及各自的相关水平，我们考虑采用多元混合logistics回归
 
 #### 3.3.1. 血压水平
 
