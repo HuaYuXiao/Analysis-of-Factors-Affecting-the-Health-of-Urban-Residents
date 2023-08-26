@@ -308,20 +308,20 @@ $$
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 74%  | 0    | 80%  | 50%  | 67%  | 67%  | 0%   | 33%  |
 
-简单计算Pearson相关系数后为`-0.13`，具有弱相关性，因此饮食控制这个原因猜测小概率是正确的。
+简单计算Pearson相关系数后为-0.13，具有弱相关性，因此饮食控制这个原因猜测小概率是正确的。
 
 ### 3.2. 生活习惯和饮食习惯与年龄、性别、婚姻状况、文化程度、职业因素的相关性
 
-针对问题一提出的标准，采用对不吃早餐，酒精，体育锻炼等进行了分类，二分类标准以不吃早餐为例，分成了健康与不健康，多分类标准以新鲜水果为例，分成了不足适量与超量三个档次，针对在此基础上又针对年龄，性别等进行更小的细分，以不吃早餐-年龄表格为例，数据分析为列联表分析。
+针对问题一提出的标准，采用对不吃早餐、酒精、体育锻炼等进行了分类，二分类标准以不吃早餐为例，分成了健康与不健康，多分类标准以新鲜水果为例，分成了不足适量与超量三个档次，针对在此基础上又针对年龄，性别等进行更小的细分，以不吃早餐-年龄表格为例，数据分析为列联表分析。
 
-1，当样本数总体超过且所有单元格T大于等于5时，用普通的卡方检验，若所得的p值约等于0.05，改用fisher检验。
+1. 当样本数总体超过且所有单元格T大于等于5时，用普通的卡方检验，若所得的p值约等于0.05，改用fisher检验。
 
-2，当样本数大于大于40但是存在单元格大于等于1小于5时，进行连续性校正
+2. 当样本数大于大于40但是存在单元格大于等于1小于5时，进行连续性校正
 
-3，当样本数小于40或者存在单元格小于1时，采用fisher检验
+3. 当样本数小于40或者存在单元格小于1时，采用fisher检验
 
 | 卡方\连续矫正卡方\fisher p值 | 年龄               | 性别               | 婚姻状况           | 文化程度           | 职业               |
-| ---------------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
+|:-:|:-:|:-:|:-:|:-:|:-:|
 | 不吃早餐                     | <0.001（显著相关） | <0.001（显著相关） | 0.4338（无关）     | <0.001（显著相关） | <0.001（显著相关） |
 | 含糖饮料                     | <0.001(显著相关）  | <0.001(显著相关）  | <0.001(显著相关）  | <0.001(显著相关）  | <0.001(显著相关）  |
 | 吸烟指数                     | <0.001(显著相关）  | <0.001（显著相关） | <0.001（显著相关） | <0.001（显著相关） | <0.001（显著相关） |
@@ -329,14 +329,123 @@ $$
 | 新鲜水果                     | <0.001(显著相关）  | <0.001(显著相关）  | 0.018（几乎无关）  | <0.001（显著相关） | 0.002（相关）      |
 | 体育锻炼                     | <0.001（显著相关） | 0.001（相关）      | <0.001（显著相关） | <0.001（显著相关） | <0.001（显著相关） |
 
+#### 3.2.1. 饮食习惯与年龄、性别、婚姻状况、文化程度、职业因素的相关性
 
-#### 3.2.1 饮食习惯
+##### 3.2.1.1. 规律进餐
 
-不吃早餐除与婚姻状况无统计学明显相关，与其他均有统计学上的明显相关；新鲜蔬菜除与文化程度和性别无明显相关，其他均具有明显相关；新鲜水果除与婚姻状况在统计学意义上几乎无关，与职业具有较弱的相关性，其他均具有明显相关。
+不吃早餐除与婚姻状况无统计学明显相关，与其他均有统计学上的明显相关。
 
-生活习惯：吸烟指数与所有列变量都具有统计学上的明显相关性；体育锻炼除与性别具有相对较弱的统计学意义上的相关性，其他都是强相关性。
+![不吃早餐-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7579222d-52a4-44f1-b4c6-40e0be5a417d/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E5%B9%B4%E9%BE%84.png)
 
-深度分析：由于上面的因素是对行变量进行分类得到的，产生的只是一对因子型变量，没有充分利用上每个样本各个行变量的具体数据，因此得出的结论只能在宏观上说明哪些之间具有显著的相关，而不能说明具体的哪些分组之间是相同的，哪些是不同的，现在考虑对每个具有显著相关的列行变量分组各自进行比较，查看各组之间的差异。分析如下（思维导图）
+[不吃早餐-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef3887a8-9090-4031-8bfc-80030171e771/不吃早餐-年龄.xlsx)
+
+![不吃早餐-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6cf81206-f2f3-488e-a2b4-0bf2fd998026/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E6%80%A7%E5%88%AB.png)
+
+[不吃早餐-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c5407c-dbee-4c30-89b8-cb35af106abe/不吃早餐-性别.xlsx)
+
+![不吃早餐-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c4dad0e-0d9f-47d7-ae92-42d444e02893/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+
+[不吃早餐-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5452551c-b5b7-4a95-8dc0-ff0d08ffe28b/不吃早餐-婚姻状况.xlsx)
+
+![不吃早餐-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b102c1f-085a-4ab7-a2b4-cd882c1e9f62/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+
+[不吃早餐-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d5cfa09-973e-44d7-a781-71aa6599d7e3/不吃早餐-文化程度.xlsx)
+
+![不吃早餐-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcc308e0-94be-4d9c-ac84-a9bad7142713/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E8%81%8C%E4%B8%9A.png)
+
+[不吃早餐-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/023cfc7c-3245-4c05-b58b-65c330dde427/不吃早餐-职业.xlsx)
+
+##### 3.2.1.2. 酒精
+
+![酒精-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c44f3069-a393-4eb3-837c-28dad4c72131/%E9%85%92%E7%B2%BE-%E5%B9%B4%E9%BE%84.png)
+
+![酒精-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a85660e-77ee-4470-8ba2-ff60aff14777/%E9%85%92%E7%B2%BE-%E6%80%A7%E5%88%AB.png)
+
+![酒精-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf0ed725-efc7-4100-ba84-8fd8d6f435f0/%E9%85%92%E7%B2%BE-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+
+![酒精-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/791ad94d-8907-49b8-9c24-437468484e2d/%E9%85%92%E7%B2%BE-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+
+![酒精-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76bd8c70-5c2b-40d3-adbf-5193486ec694/%E9%85%92%E7%B2%BE-%E8%81%8C%E4%B8%9A.png)
+
+##### 3.2.1.3. 含糖饮料
+
+![含糖饮料-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5814b577-7be3-4c1b-ad72-27544c4ccb67/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E5%B9%B4%E9%BE%84.png)
+
+[含糖饮料-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f86bd2e2-7e7f-45fd-9e23-746be4f00a52/含糖饮料-年龄.xlsx)
+
+![含糖饮料-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d52a3aba-4239-40bf-be2f-dc7563fdcbe8/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E6%80%A7%E5%88%AB.png)
+
+[含糖饮料-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5550da0-e215-47d4-9b05-930e07812be0/含糖饮料-性别.xlsx)
+
+![含糖饮料-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caba994b-0cab-4c7a-8e27-ce33c6abc4b1/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+
+[含糖饮料-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b102ac94-7b0a-4d2b-9744-155ed163bf93/含糖饮料-婚姻状况.xlsx)
+
+![含糖饮料-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c15634a1-c13f-4edb-96ad-d9ea8edd2e98/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+
+[含糖饮料-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ba5447ab-5005-4d0d-b4b2-98f6ecc92f8f/含糖饮料-文化程度.xlsx)
+
+![含糖饮料-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb5b2d60-e1cb-4e0a-a5d8-5cc83cd4be6e/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E8%81%8C%E4%B8%9A.png)
+
+[含糖饮料-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4473dbb5-cd4b-4b2e-b465-ba6dcd61e031/含糖饮料-职业.xlsx)
+
+##### 3.2.1.4. 新鲜蔬菜
+
+新鲜蔬菜除与文化程度和性别无明显相关，其他均具有明显相关。
+
+![新鲜蔬菜-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f01cff2a-6c56-4d72-a3d9-ea79f35a4210/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%B9%B4%E9%BE%84.png)
+
+![新鲜蔬菜-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55e52929-e91c-4d27-8400-cfeec41b08a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%80%A7%E5%88%AB.png)
+
+![新鲜蔬菜-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa7dbc3-4378-4578-99e2-b4493ac1c68e/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+
+![新鲜蔬菜-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4044e85-23c6-4133-91b9-4a79ed3f12a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+
+![新鲜蔬菜-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40f9cb44-7a21-4348-9466-278c9e82601f/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E8%81%8C%E4%B8%9A.png)
+
+##### 3.2.1.5. 新鲜水果
+
+新鲜水果除与婚姻状况在统计学意义上几乎无关，与职业具有较弱的相关性，其他均具有明显相关。
+
+![新鲜水果-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f74238e-16a4-4cd3-99ff-8fbb24321266/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%B9%B4%E9%BE%84.png)
+
+![新鲜水果-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e932bbe-cae2-452e-a7ed-a0c4b0dee210/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%80%A7%E5%88%AB.png)
+
+![新鲜水果-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13c413ee-2431-424d-82d2-33ca09d0f88e/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+
+![新鲜水果-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1fdba397-9fda-486a-a9e5-f3fe3f0cf7a0/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+
+![新鲜水果-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79ded0e1-4949-42ca-9110-e639a21ccfc1/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E8%81%8C%E4%B8%9A.png)
+
+#### 3.2.2. 生活习惯
+
+##### 3.2.2.1. 吸烟
+
+吸烟指数与所有列变量都具有统计学上的明显相关性。
+
+![吸烟-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7c16ba4-9948-4855-bfd9-b0c81cee2a7d/%E5%90%B8%E7%83%9F-%E5%B9%B4%E9%BE%84.png)
+
+![吸烟-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af68816a-1ea1-4675-85f9-d577918db1c2/%E5%90%B8%E7%83%9F-%E6%80%A7%E5%88%AB.png)
+
+![吸烟-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52485788-d98a-49b9-a0d0-1370d500af45/%E5%90%B8%E7%83%9F-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+
+![吸烟-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1aab95e5-d783-4fc9-a62a-bc48c75ab781/%E5%90%B8%E7%83%9F-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+
+![吸烟-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4ba3701-0201-4fc1-9c06-f71b15d6f9b3/%E5%90%B8%E7%83%9F-%E8%81%8C%E4%B8%9A.png)
+
+##### 3.2.2.2. 体育锻炼
+
+体育锻炼除与性别具有相对较弱的统计学意义上的相关性，其他都是强相关性。
+
+![体育锻炼-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70665068-a7d1-48d1-9b73-1fc71b9445a6/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%B9%B4%E9%BE%84.png)
+
+![体育锻炼-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ec1f471-777a-4399-9b88-9ac05fe9c48d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%80%A7%E5%88%AB.png)
+
+![体育锻炼-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1b125a6-b434-4f1b-ac91-08cb99e8b08d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
+
+![体育锻炼-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff1653b4-16ec-4c5d-afba-64f06151d1ec/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
+
+![体育锻炼-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b07347b3-1122-4f6c-ab43-b10646d83eb3/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E8%81%8C%E4%B8%9A.png)
 
 最终得到的结果如下
 
@@ -360,111 +469,9 @@ $$
 
 新鲜蔬菜指标上学生与其他职业具有最多的统计学差异，新鲜水果指标上是工人与农民，体育锻炼上是学生和离退休人员，吸烟指数：医务人员，学生，家庭妇女，酒精：家庭妇女，军人，学生；含糖饮料：学生，农民；不吃早餐：离退休人员。
 
-#### 不吃早餐
+深度分析：由于上面的因素是对行变量进行分类得到的，产生的只是一对因子型变量，没有充分利用上每个样本各个行变量的具体数据，因此得出的结论只能在宏观上说明哪些之间具有显著的相关，而不能说明具体的哪些分组之间是相同的，哪些是不同的，现在考虑对每个具有显著相关的列行变量分组各自进行比较，查看各组之间的差异。分析如下（思维导图）
 
-![不吃早餐-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7579222d-52a4-44f1-b4c6-40e0be5a417d/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E5%B9%B4%E9%BE%84.png)
-
-[不吃早餐-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef3887a8-9090-4031-8bfc-80030171e771/不吃早餐-年龄.xlsx)
-
-![不吃早餐-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6cf81206-f2f3-488e-a2b4-0bf2fd998026/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E6%80%A7%E5%88%AB.png)
-
-[不吃早餐-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8c5407c-dbee-4c30-89b8-cb35af106abe/不吃早餐-性别.xlsx)
-
-![不吃早餐-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c4dad0e-0d9f-47d7-ae92-42d444e02893/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-[不吃早餐-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5452551c-b5b7-4a95-8dc0-ff0d08ffe28b/不吃早餐-婚姻状况.xlsx)
-
-![不吃早餐-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3b102c1f-085a-4ab7-a2b4-cd882c1e9f62/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-[不吃早餐-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d5cfa09-973e-44d7-a781-71aa6599d7e3/不吃早餐-文化程度.xlsx)
-
-![不吃早餐-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bcc308e0-94be-4d9c-ac84-a9bad7142713/%E4%B8%8D%E5%90%83%E6%97%A9%E9%A4%90-%E8%81%8C%E4%B8%9A.png)
-
-[不吃早餐-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/023cfc7c-3245-4c05-b58b-65c330dde427/不吃早餐-职业.xlsx)
-
-#### 酒精
-
-![酒精-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c44f3069-a393-4eb3-837c-28dad4c72131/%E9%85%92%E7%B2%BE-%E5%B9%B4%E9%BE%84.png)
-
-![酒精-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9a85660e-77ee-4470-8ba2-ff60aff14777/%E9%85%92%E7%B2%BE-%E6%80%A7%E5%88%AB.png)
-
-![酒精-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf0ed725-efc7-4100-ba84-8fd8d6f435f0/%E9%85%92%E7%B2%BE-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-![酒精-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/791ad94d-8907-49b8-9c24-437468484e2d/%E9%85%92%E7%B2%BE-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-![酒精-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76bd8c70-5c2b-40d3-adbf-5193486ec694/%E9%85%92%E7%B2%BE-%E8%81%8C%E4%B8%9A.png)
-
-#### 含糖饮料
-
-![含糖饮料-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5814b577-7be3-4c1b-ad72-27544c4ccb67/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E5%B9%B4%E9%BE%84.png)
-
-[含糖饮料-年龄.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f86bd2e2-7e7f-45fd-9e23-746be4f00a52/含糖饮料-年龄.xlsx)
-
-![含糖饮料-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d52a3aba-4239-40bf-be2f-dc7563fdcbe8/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E6%80%A7%E5%88%AB.png)
-
-[含糖饮料-性别.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5550da0-e215-47d4-9b05-930e07812be0/含糖饮料-性别.xlsx)
-
-![含糖饮料-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/caba994b-0cab-4c7a-8e27-ce33c6abc4b1/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-[含糖饮料-婚姻状况.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b102ac94-7b0a-4d2b-9744-155ed163bf93/含糖饮料-婚姻状况.xlsx)
-
-![含糖饮料-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c15634a1-c13f-4edb-96ad-d9ea8edd2e98/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-[含糖饮料-文化程度.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ba5447ab-5005-4d0d-b4b2-98f6ecc92f8f/含糖饮料-文化程度.xlsx)
-
-![含糖饮料-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb5b2d60-e1cb-4e0a-a5d8-5cc83cd4be6e/%E5%90%AB%E7%B3%96%E9%A5%AE%E6%96%99-%E8%81%8C%E4%B8%9A.png)
-
-[含糖饮料-职业.xlsx](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4473dbb5-cd4b-4b2e-b465-ba6dcd61e031/含糖饮料-职业.xlsx)
-
-#### 吸烟指数
-
-![吸烟-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7c16ba4-9948-4855-bfd9-b0c81cee2a7d/%E5%90%B8%E7%83%9F-%E5%B9%B4%E9%BE%84.png)
-
-![吸烟-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af68816a-1ea1-4675-85f9-d577918db1c2/%E5%90%B8%E7%83%9F-%E6%80%A7%E5%88%AB.png)
-
-![吸烟-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/52485788-d98a-49b9-a0d0-1370d500af45/%E5%90%B8%E7%83%9F-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-![吸烟-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1aab95e5-d783-4fc9-a62a-bc48c75ab781/%E5%90%B8%E7%83%9F-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-![吸烟-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4ba3701-0201-4fc1-9c06-f71b15d6f9b3/%E5%90%B8%E7%83%9F-%E8%81%8C%E4%B8%9A.png)
-
-#### 新鲜蔬菜
-
-![新鲜蔬菜-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f01cff2a-6c56-4d72-a3d9-ea79f35a4210/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%B9%B4%E9%BE%84.png)
-
-![新鲜蔬菜-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55e52929-e91c-4d27-8400-cfeec41b08a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%80%A7%E5%88%AB.png)
-
-![新鲜蔬菜-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/daa7dbc3-4378-4578-99e2-b4493ac1c68e/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-![新鲜蔬菜-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4044e85-23c6-4133-91b9-4a79ed3f12a2/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-![新鲜蔬菜-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40f9cb44-7a21-4348-9466-278c9e82601f/%E6%96%B0%E9%B2%9C%E8%94%AC%E8%8F%9C-%E8%81%8C%E4%B8%9A.png)
-
-#### 新鲜水果
-
-![新鲜水果-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f74238e-16a4-4cd3-99ff-8fbb24321266/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%B9%B4%E9%BE%84.png)
-
-![新鲜水果-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e932bbe-cae2-452e-a7ed-a0c4b0dee210/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%80%A7%E5%88%AB.png)
-
-![新鲜水果-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/13c413ee-2431-424d-82d2-33ca09d0f88e/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-![新鲜水果-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1fdba397-9fda-486a-a9e5-f3fe3f0cf7a0/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-![新鲜水果-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79ded0e1-4949-42ca-9110-e639a21ccfc1/%E6%96%B0%E9%B2%9C%E6%B0%B4%E6%9E%9C-%E8%81%8C%E4%B8%9A.png)
-
-#### 体育锻炼
-
-![体育锻炼-年龄.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70665068-a7d1-48d1-9b73-1fc71b9445a6/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%B9%B4%E9%BE%84.png)
-
-![体育锻炼-性别.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ec1f471-777a-4399-9b88-9ac05fe9c48d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%80%A7%E5%88%AB.png)
-
-![体育锻炼-婚姻状况.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1b125a6-b434-4f1b-ac91-08cb99e8b08d/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E5%A9%9A%E5%A7%BB%E7%8A%B6%E5%86%B5.png)
-
-![体育锻炼-文化程度.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ff1653b4-16ec-4c5d-afba-64f06151d1ec/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E6%96%87%E5%8C%96%E7%A8%8B%E5%BA%A6.png)
-
-![体育锻炼-职业.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b07347b3-1122-4f6c-ab43-b10646d83eb3/%E4%BD%93%E8%82%B2%E9%94%BB%E7%82%BC-%E8%81%8C%E4%B8%9A.png)
-
-### 5.3. 常见慢性病与吸烟、饮酒、饮食习惯、生活习惯、工作性质、运动因素的关系以及相关程度
+### 3.3. 常见慢性病与吸烟、饮酒、饮食习惯、生活习惯、工作性质、运动因素的关系以及相关程度
 
 （无监督学习）反应居民生活，饮食习惯多个指标之间的相关系数热图
 
@@ -478,52 +485,7 @@ $$
 
 针对慢性病与哪些因素有关以及各自的相关水平，我们考虑采用多元混合logistics回归
 
-尿酸水平：
-
-首先我们做霍斯默-莱梅肖检验以判断这组数据能够用二元logistics回归模型，测得p值为0.24大于0.05说明是可以的。接着利用前向逐步回归的方法筛选出显著性较强的变量，分别是体育锻炼和吸烟指数，针对这两个显著性变量分别计算它们的OR值，其中体育锻炼OR值为1.001说明增强体育锻炼有助于维持正常尿酸，而吸烟指数的OR值为1说明相对高尿酸人群而言它的增加，不会带来倍数的明显变化，针对无关变量采取向后回归的方法，分别计算在去除变量后显著性，结果如下
-
-| p值  |      | 含糖饮料 | 新鲜蔬菜 | 酒精 | 新鲜水果 | 不吃早餐 |      |
-| ---- | ---- | -------- | -------- | ---- | -------- | -------- | ---- |
-|      |      | .932     | .758     | .658 | .603     | .353     |      |
-|      |      |          |          |      |          |          |      |
-
-糖代谢水平：
-
-去除157个未知血糖样本，对剩余的样本我们首先做二分类只分为正常与不正常，按照流程后分析结果如下
-
-不相关变量：新鲜蔬菜，新鲜水果，酒精，不吃早餐，对应的p值分别为0.329，0.293，0.512，0.154；
-
-相关变量：吸烟档次，对应的OR值分别是0.302，0.258，0.383，相对1的绝对值为0.698，0.742，0.617，处于吸烟第二档次对于维持正常血糖标准最困难；含糖饮料，OR值为0.997，相对1为0.003，说明少喝含糖饮料有助于维持血糖正常水平；体育锻炼，OR值为1.001，相对1为0.001，体育锻炼基本不影响血糖正常水平。
-
-异常糖代谢：
-
-首先做平行线检验，p值不显著，因此不满足有序回归的条件，选择无序多分类回归，以糖尿病患者为参考组，似然比检验后结果如下
-
-| 指标 | 新鲜蔬菜 | 新鲜水果 | 酒精 | 含糖饮料 | 体育锻炼 | 不吃早餐 | 吸烟指数 | 常值截距 |
-| ---- | -------- | -------- | ---- | -------- | -------- | -------- | -------- | -------- |
-| p值  | .247     | .961     | .814 | .776     | .966     | .808     | .002     | .922     |
-
-由此可见只有吸烟指数指标具有统计学意义，查询相应OR值为0.999，说明空腹血糖受损人群相对于糖尿病而言，吸烟指数每增加一个单位，发生风险（减少）幅度为0.999蓓。
-
-血脂水平：
-
-去除149个未知血脂样本，对剩余的样本我们首先做二分类只分为正常与不正常，按照流程后分析结果如下
-
-不相关变量：含糖饮料，新鲜蔬菜，新鲜水果，不吃早餐，对应p值分别为0.395，0.456，0.102，0.224
-
-相关变量：酒精对应的OR值为1.135，相对1的绝对值为0.135，说明酒精每增加一个单位水平，将会增加1.135蓓血脂异常风险；体育锻炼OR值为1.001，说明体育锻炼每增加一个单位基本不影响血脂异常风险；以吸烟重度为参考组，第一档次每增加一个单位想对于吸烟重度的每增加一个单位血脂异常发生档次变化倍数为0.307，第二档次则为0.358。
-
-异常血脂：
-
-首先做平行线检验，p值不显著，因此不满足有序回归的条件，选择无序多分类回归，以高胆固醇血症为参考组，似然比检验后结果如下
-
-| 指标 | 新鲜蔬菜 | 新鲜水果 | 酒精 | 含糖饮料 | 体育锻炼 | 不吃早餐 | 吸烟指数指标 |
-| ---- | -------- | -------- | ---- | -------- | -------- | -------- | ------------ |
-| p值  | .296     | .956     | .212 | .133     | <.001    | .233     | <.001        |
-
-由此可见只有吸烟指数指标和体育锻炼具有统计学意义，低高密度脂蛋白血症，混合型高脂血症和高甘油三酯血症患者体育锻炼OR值为0.999，体育锻炼每增加一个单位，异常发生风险为参考组的0.999倍；低高密度脂蛋白血症，混合型高脂血症吸烟指数OR值为1.001，体育锻炼每增加一个单位，异常发生风险为参考组的1.001倍，高甘油三酯血症OR为1，相对参考值差异不大。
-
-血压水平：
+#### 3.3.1. 血压水平
 
 去除134个未知血压样本，对剩余的样本我们首先做二分类只分为正常与不正常，按照流程后分析结果如下
 
@@ -536,33 +498,74 @@ $$
 首先做平行线检验，p值不显著，因此不满足有序回归的条件，选择无序多分类回归，以3级高血压为参考组，似然比检验后结果如下
 
 | 指标 | 新鲜蔬菜 | 新鲜水果 | 酒精 | 含糖饮料 | 体育锻炼 | 不吃早餐 | 吸烟指数指标 |
-| ---- | -------- | -------- | ---- | -------- | -------- | -------- | ------------ |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | p值  | .601     | .573     | .337 | .085     | .008     | .740     | .058         |
 
 为减少误判概率，选择实接受吸烟指数指标具有统计学意义，其中单纯收缩期高血压，1级高血压（轻度），2级高血压（中度）吸烟指数指标改变引起风险的变化倍数与参考组没有差异；单纯收缩期高血压体育锻炼OR值为.995，体育锻炼每增加一个单位，异常发生风险为参考组的.995倍，1级高血压（轻度），2级高血压（中度）体育锻炼OR值为.999，体育锻炼每增加一个单位，异常发生风险为参考组的.999倍，
 
-### 6. 敏感度分析
+#### 3.3.2. 糖代谢状态
+
+去除157个未知血糖样本，对剩余的样本我们首先做二分类只分为正常与不正常，按照流程后分析结果如下
+
+不相关变量：新鲜蔬菜，新鲜水果，酒精，不吃早餐，对应的p值分别为0.329，0.293，0.512，0.154；
+
+相关变量：吸烟档次，对应的OR值分别是0.302，0.258，0.383，相对1的绝对值为0.698，0.742，0.617，处于吸烟第二档次对于维持正常血糖标准最困难；含糖饮料，OR值为0.997，相对1为0.003，说明少喝含糖饮料有助于维持血糖正常水平；体育锻炼，OR值为1.001，相对1为0.001，体育锻炼基本不影响血糖正常水平。
+
+异常糖代谢：
+
+首先做平行线检验，p值不显著，因此不满足有序回归的条件，选择无序多分类回归，以糖尿病患者为参考组，似然比检验后结果如下
+
+| 指标 | 新鲜蔬菜 | 新鲜水果 | 酒精 | 含糖饮料 | 体育锻炼 | 不吃早餐 | 吸烟指数 | 常值截距 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| p值  | .247     | .961     | .814 | .776     | .966     | .808     | .002     | .922     |
+
+由此可见只有吸烟指数指标具有统计学意义，查询相应OR值为0.999，说明空腹血糖受损人群相对于糖尿病而言，吸烟指数每增加一个单位，发生风险（减少）幅度为0.999倍。
+
+#### 3.3.3. 血脂水平
+
+去除149个未知血脂样本，对剩余的样本我们首先做二分类只分为正常与不正常，按照流程后分析结果如下
+
+不相关变量：含糖饮料，新鲜蔬菜，新鲜水果，不吃早餐，对应p值分别为0.395，0.456，0.102，0.224
+
+相关变量：酒精对应的OR值为1.135，相对1的绝对值为0.135，说明酒精每增加一个单位水平，将会增加1.135蓓血脂异常风险；体育锻炼OR值为1.001，说明体育锻炼每增加一个单位基本不影响血脂异常风险；以吸烟重度为参考组，第一档次每增加一个单位想对于吸烟重度的每增加一个单位血脂异常发生档次变化倍数为0.307，第二档次则为0.358。
+
+异常血脂：
+
+首先做平行线检验，p值不显著，因此不满足有序回归的条件，选择无序多分类回归，以高胆固醇血症为参考组，似然比检验后结果如下
+
+| 指标 | 新鲜蔬菜 | 新鲜水果 | 酒精 | 含糖饮料 | 体育锻炼 | 不吃早餐 | 吸烟指数指标 |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| p值  | .296     | .956     | .212 | .133     | <.001    | .233     | <.001        |
+
+由此可见只有吸烟指数指标和体育锻炼具有统计学意义，低高密度脂蛋白血症，混合型高脂血症和高甘油三酯血症患者体育锻炼OR值为0.999，体育锻炼每增加一个单位，异常发生风险为参考组的0.999倍；低高密度脂蛋白血症，混合型高脂血症吸烟指数OR值为1.001，体育锻炼每增加一个单位，异常发生风险为参考组的1.001倍，高甘油三酯血症OR为1，相对参考值差异不大。
+
+#### 3.3.4. 尿酸水平
+
+首先我们做霍斯默-莱梅肖检验以判断这组数据能够用二元logistics回归模型，测得p值为0.24大于0.05说明是可以的。接着利用前向逐步回归的方法筛选出显著性较强的变量，分别是体育锻炼和吸烟指数，针对这两个显著性变量分别计算它们的OR值，其中体育锻炼OR值为1.001说明增强体育锻炼有助于维持正常尿酸，而吸烟指数的OR值为1说明相对高尿酸人群而言它的增加，不会带来倍数的明显变化，针对无关变量采取向后回归的方法，分别计算在去除变量后显著性，结果如下
+
+| p值  |      | 含糖饮料 | 新鲜蔬菜 | 酒精 | 新鲜水果 | 不吃早餐 |      |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|      |      | .932     | .758     | .658 | .603     | .353     |      |
+|      |      |          |          |      |          |          |      |
+
+## 4. 模型评价
+
+### 4.1. 模型优点
 
 
 
-
-
-### 7. 模型的评价与推广
-
-#### 7.1 模型的优点
+### 4.2. 模型缺点
 
 
 
-#### 7.2 模型的缺点
+### 4.3. 模型推广
+
+
+## 5. 总结
 
 
 
-#### 7.3 模型的推广
-
-
-
-
-### 参考文献
+## 参考文献
 
 [1] "第七次全国人口普查公报__中国政府网,"   Gov, https://www.gov.cn/guoqing/2021-05/13/content_5606149.htm(访问时间 Jan. 1, 1970).
 
